@@ -3,7 +3,7 @@ package com.ieschabas;
 import java.util.Scanner;
 
 /**
- * Creamos una clase Temperatura
+ * Creamos un programa que convierte grados celsiu a Fahrenheit y kelvin
  * @author Cecilia Paredes
  * @versión 1.0
  */
@@ -20,8 +20,8 @@ public class Temperatura {
         double kelvin = celsius + 273.15;
 
         //Mostramos los resultados en consola con dos decimales
-        System.out.printf("Equivalente en Fahrenheit : %2.fºF\n", fahrenheit);
-        System.out.printf("Equivalente en Kelvin: %.2f k\n", kelvin);
+        System.out.printf("Temperatura en Fahrenheit : %.2f ºF%n", fahrenheit);
+        System.out.printf("Temperatura  en Kelvin: %.2f k%n", kelvin);
         sc.close();
 
     }

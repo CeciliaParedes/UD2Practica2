@@ -15,7 +15,7 @@ public class Iniciales {
         String nombre = sc.nextLine();
         System.out.println("Introduce tu primer apellido:  ");
         String apelllido = sc.nextLine();
-        //Obtenemos las iniciales
+        //Obtenemos las iniciales, creamos los carácteres inicialNombre e inicialApellido
         char inicialNombre = nombre.charAt(0);
         char inicialApellido = apelllido.charAt(0);
         //Mostramos las iniciales separadas por puntos

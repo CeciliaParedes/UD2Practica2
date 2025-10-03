@@ -23,7 +23,7 @@ public class SumaFormateada {
         int suma = num1 + num2;
 
         //Mostramos la suma en formato a + b = resultado
-        System.out.println(num1 + "+" + num2 + "0" + suma);
+        System.out.println(num1 + "+" + num2 + "=" + suma);
         sc.close();
 
     }
